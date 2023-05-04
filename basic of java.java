@@ -3,8 +3,9 @@ public class  Main
 { public static void main(String args[])
     {
     Scanner sc =new Scanner (System.in);
-	String name =sc.nextLine();
-		System.out.println(name);
+	String name =sc.nextLine(); 
+	System.out.println(name); // print any input string
+	//sum of variables using user input
     System.out .println("enter value of a:");
 	int a=sc.nextInt();
 	System.out .println("enter value of b:");
