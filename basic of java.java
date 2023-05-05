@@ -13,5 +13,12 @@ public class  Main
 	System.out .println("Sum of a and b:");
 	int sum =a+b;
 	System.out.println(sum);
+	//printing table of any number using for loop
+	System.out.print("Enter number: ");       
+    int num=sc.nextInt();  
+    for(int i=1; i <= 10; i++)  
+    {  
+    System.out.println(num+" * "+i+" = "+num*i);  
+    }
 	}
 }
